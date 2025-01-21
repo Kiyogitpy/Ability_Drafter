@@ -19,8 +19,8 @@ Features
 
 Clone the repository:
 
-    git clone https://github.com/yourusername/dota2-icon-matcher.git
-    cd dota2-icon-matcher
+    git clone (https://github.com/Kiyogitpy/Ability_Drafter)
+    cd Ability_Drafter
 
 
 Install dependencies:
