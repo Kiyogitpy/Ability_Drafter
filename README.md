@@ -19,7 +19,7 @@ Features
 
 Clone the repository:
 
-    git clone (https://github.com/Kiyogitpy/Ability_Drafter)
+    git clone https://github.com/Kiyogitpy/Ability_Drafter
     cd Ability_Drafter
 
 
