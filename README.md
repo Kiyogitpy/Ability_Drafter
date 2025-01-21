@@ -1,4 +1,4 @@
-Dota2 Ability Icon Matcher
+Dota2 Ability Drafter
 
 This project implements a tool that extracts ability icons from Dota 2 screenshots, matches them against a library using MobileNetV2 features, and displays the results as an overlay. The matching is performed either individually or in batch using cosine similarity between image embeddings. Additionally, the overlay uses PyQt5 and communicates with a Flask game server that handles incoming game state data.
 Features
