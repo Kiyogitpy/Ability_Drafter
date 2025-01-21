@@ -19,6 +19,7 @@ def cosine_distance(a, b):
 
 
 class IconMatcher:
+    # usecase: matcher = IconMatcher(base_library_dir="dota2_ability_icons", input_size=(224, 224), cashefile)
     def __init__(self, base_library_dir, input_size=(224, 224), cache_path='library_embeddings.npz'):
         """
         base_library_dir: Path to 'dota2_ability_icons', which has subfolders 
@@ -248,6 +249,7 @@ def build_mosaic(pair_images, pairs_per_row, pair_size):
 
 
 class ImageCropper:
+    # usecase ImageCropper("cord_dict.txt", screenshot=True / False with inmagepath)
     def __init__(self, json_file, screenshot=True, image_path=None):
         # Load the JSON file containing object coordinates
         with open(json_file, "r") as file:
