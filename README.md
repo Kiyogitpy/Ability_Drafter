@@ -29,13 +29,6 @@ Install dependencies:
 
     pip install -r requirements.txt
 
-    Prepare the Library:
-
-    Place the Dota 2 ability icon images into the dota2_ability_icons folder, organized in subfolders (e.g., Lowtier, Tier1, etc.).
-
-    Configure Your JSON File:
-
-    Create a JSON file (cord_dict.txt) containing the coordinates needed for cropping the images.
 
 Running the Application
 
