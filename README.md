@@ -15,15 +15,12 @@ Features
     Game Server Integration:
     A Flask server receives game state data via POST requests and triggers image cropping and matching accordingly.
 
-Requirements
 
-See the requirements.txt file.
-Setup
+Clone the repository:
 
-    Clone the repository:
+    git clone https://github.com/yourusername/dota2-icon-matcher.git
+    cd dota2-icon-matcher
 
-git clone https://github.com/yourusername/dota2-icon-matcher.git
-cd dota2-icon-matcher
 
 Install dependencies:
 
