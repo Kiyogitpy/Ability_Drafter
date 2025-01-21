@@ -32,9 +32,10 @@ Running the Application
 
 You can start the application by running:
 
-python your_main_script.py
+python main_flask.py
 
 This starts the Flask game server and the PyQt5 overlay. When the game state signal is received, the application crops the screenshot, matches the icons with the library, and displays the overlay with the results.
+
 License
 
 This project is licensed under the MIT License.
